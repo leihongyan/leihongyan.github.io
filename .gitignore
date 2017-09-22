@@ -1,6 +1,6 @@
-_site/
-.sass-cache/
-*.DS_Store
+_site
+.sass-cache
 .idea
-*.swp
-.Trashes
+resumecard.iml
+/*.iml
+Gemfile.lock
