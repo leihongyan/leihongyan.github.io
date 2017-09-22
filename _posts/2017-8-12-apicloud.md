@@ -4,9 +4,9 @@ title: apicloud总结
 date: 2017-8-12 
 tags: 博客   
 ---
-  用apicloud框架做一款APP的过程中，总结出了一些知识点
+  用apicloud框架做一款APP的过程中，总结出了一些知识点,用户可以使用这套框架兼容不同移动端，使用一套代码就可以适配不同系统
 
-###跳转页面的两种方式
+### 跳转页面的两种方式
 
 打开一个window
 
@@ -48,7 +48,7 @@ tags: 博客
 	api.closeWin({name:pagename});pagename是所要关闭页面的全名称
 ```
 
-###沉浸式效果实现
+### 沉浸式效果实现
 
   在config.xml文件配置是否开启:
 
@@ -56,7 +56,7 @@ tags: 博客
   沉浸式效果配置说明
   在Window或Frame的apiready事件后，调用$api.fixStatusBar()方法;
 
-###CSS Framework
+### CSS Framework
 
 ```
 	清除浏览器默认样式（借鉴CSS Reset，Normalize.css）
@@ -78,14 +78,14 @@ tags: 博客
 	  <permission name="contact"/>联系人
 ```
 
-###选择器
+### 选择器
 
 ```
 	var main = $api.byId('main');
 	var headerPos = $api.offset(header);
 ```
 
-###pageParam
+### pageParam
 
 ```
 	页面参数，JSON 对象类型
@@ -93,7 +93,7 @@ tags: 博客
 	用于获取页面间传递的参数值，为 openWin()、openFrame() 等方法中的 pageParam 参数对应值
 ```
 
-###打开一个frame组
+### 打开一个frame组
 
 ```
 	api.openFrameGroup({
@@ -121,7 +121,7 @@ tags: 博客
 	});
 ```
 
-###关闭一个frame组
+### 关闭一个frame组
 
 ```
 	api.closeFrameGroup({
@@ -129,7 +129,7 @@ tags: 博客
 	});
 ```
 
-###execscript
+### execscript
 
 ```
 	// 通用header的window
@@ -141,13 +141,13 @@ tags: 博客
 	}
 ```
 
-###setPrefs   localstorage  sendEvent
+### setPrefs   localstorage  sendEvent
    sendEvent和setPrefs 这两个方法虽然都可以实现传值的功能，但
    是不建议使用此方法进行传值，如果是上级页面传值给下级页面的话建议使用openwin或者openframe里面的pageParam参数实现，
    如果是跨页面或者下级给上级传值建议使用execScript方法实现
-###widget
+### widget
    widget路径指的是最外面的路径
-###使用flex布局出现的问题
+### 使用flex布局出现的问题
    关于box-flex与flex两者之间实现的功能相同，但是对于不同的浏览器之间的兼容的问题有着不同的使用情况
    在apicloud中，使用09年的box-flex才起到作用	、
 	有如下：
@@ -187,7 +187,7 @@ tags: 博客
 			flex-flow:column
 ```
 
-###倒计时
+### 倒计时
 
 ```
 		var toDouble = function(num){
@@ -237,7 +237,7 @@ tags: 博客
 	    countDown(countDownTime);
 ```
 
-###前端框架
+### 前端框架
    - val
 
 ```
@@ -269,13 +269,13 @@ tags: 博客
 		alert($api.getStorage('name'))
 ```
 
-###防止iOS手机将数字转换成手机号码
+### 防止iOS手机将数字转换成手机号码
 	
 ```
 	<meta name="format-detection" content="telephone=no"/>
 ```
 
-###api+vue
+### api+vue
 
 ```
 	1. 转义
