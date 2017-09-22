@@ -161,37 +161,37 @@ var OpenCommon=function(name,title){
 
 ```
 1  
-	-webkit-box-pack:justify;（相当于space-between）
-	-webkit-justify-content:space-between;
+-webkit-box-pack:justify;（相当于space-between）
+-webkit-justify-content:space-between;
 2 
-	-webkit-box-align:center;
-    -webkit-align-items: center;
-    justify-content: center;
-    -webkit-box-pack:center;
-    -webkit-justify-content:center;
+-webkit-box-align:center;
+-webkit-align-items: center;
+justify-content: center;
+-webkit-box-pack:center;
+-webkit-justify-content:center;
 3  	
-	display: -webkit-box;
-    display: -webkit-flex;
-    display: flex;
+display: -webkit-box;
+display: -webkit-flex;
+display: flex;
 4
-    -webkit-box-orient: vertical;
-    box-orient: vertical;
+-webkit-box-orient: vertical;
+box-orient: vertical;
 5
-    -webkit-flex-direction: column;
-    flex-direction: column;
+-webkit-flex-direction: column;
+flex-direction: column;
 6 
-	弹性盒子：
-	-webkit-box-flex: 1; 
-	-webkit-flex: 1;
-	flex: 1;
+弹性盒子：
+-webkit-box-flex: 1; 
+-webkit-flex: 1;
+flex: 1;
 7  
-	-webkit-box-orient:horizontal
-	-webkit-flex-flow:row
-	flex-flow:row
+-webkit-box-orient:horizontal
+-webkit-flex-flow:row
+flex-flow:row
 8
-	-webkit-box-orient:vertical
-	-webkit-flex-flow:column
-	flex-flow:column
+-webkit-box-orient:vertical
+-webkit-flex-flow:column
+flex-flow:column
 ```
 
 ### 倒计时
