@@ -10,7 +10,9 @@ url: "https://leihongyan.github.io/"
 
 # Comment
 comment:
+    used: disqus
     disqus: leihongyan
+    disqus_button: true
     uyan: 2145180  # 有言id,登录有言官网申请
 
 # Social
