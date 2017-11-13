@@ -288,3 +288,4 @@ alert($api.getStorage('name'))
 1. 转义
 	"'xuan_new_qz('+row.uid+',\''+row.nickname+'\')'"
 ```
+
