@@ -2,7 +2,7 @@
 layout: post
 title: apicloud总结
 date: 2017-8-12 
-tags: 博客   
+tags: App框架  
 ---
 
   用apicloud框架做一款APP的过程中，总结出了一些知识点,用户可以使用这套框架兼容不同移动端，使用一套代码就可以适配不同系统
