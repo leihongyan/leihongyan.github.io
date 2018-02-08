@@ -5,12 +5,12 @@ date: 2018-1-25
 tags: 数据库
 ---
 
-###补丁
+### 补丁
 [下载补丁](http://hotfixv4.microsoft.com/Windows%207/Windows%20Server2008%20R2%20SP1/sp2/Fix405791/7600/free/451413_intl_x64_zip.exe)
 
-###mongoDB
+### mongoDB
 [下载mongoDB](https://fastdl.mongodb.org/win32/mongodb-win32-x86_64-2008plus-ssl-3.6.2-signed.msi)
-###mongoDB命令
+### mongoDB命令
 * 开机
 ```
 mongod --dbpath F:\mongo
