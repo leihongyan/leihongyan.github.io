@@ -1,10 +1,10 @@
 ---
 layout: post
 title: mongoDB
-date: 2018-1-25
+date: 2018-2-7
 tags: 数据库
 ---
-
+	学习mongoDB中的知识点
 ### 补丁
 [下载补丁](http://hotfixv4.microsoft.com/Windows%207/Windows%20Server2008%20R2%20SP1/sp2/Fix405791/7600/free/451413_intl_x64_zip.exe)
 
