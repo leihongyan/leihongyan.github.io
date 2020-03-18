@@ -31,3 +31,15 @@ $(document).ready(function() {
     // this.style.backgroundColor = '#fff'; 设置颜色后会自动消失
   });  
 });
+
+
+if (navigator.serviceWorker) {
+  navigator.serviceWorker
+    .register('./sw.js', {scope: '/'})
+    .then(function(registration) {
+      console.log('service worker 注册成功');
+    })
+    .catch(function(err) {
+      console.log('servcie worker 注册失败',err);
+    });
+}
